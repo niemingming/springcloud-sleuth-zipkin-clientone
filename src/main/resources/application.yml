@@ -1,0 +1,10 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: zipkinclientserverone
+  zipkin:
+    base-url: http://localhost:8080
+  sleuth:
+    sampler:
+      percentage: 1.0
